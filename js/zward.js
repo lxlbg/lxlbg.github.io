@@ -4,14 +4,14 @@
 //zwardList
 //抽奖的数组   titile中文名称  url 图片路径  type 是否是奖
 var newArr=[
-            {title:"眼罩",url:"眼罩10.jpg",type:"yes"},
-			{title:"蓝牙耳机",url:"蓝牙耳机10.jpg",type:"yes"},
-			{title:"小熊手暖",url:"小熊手暖10.jpg",type:"yes"},
-			{title:"手环",url:"手环10.jpg",type:"yes"},
-			{title:"小熊U形枕",url:"小熊U形枕10.jpg",type:"yes"},
-			{title:"书桌",url:"书桌10.jpg",type:"yes"},
-		    {title:"马克杯",url:"马克杯10.jpg",type:"yes"},
-            {title:"鼠标",url:"鼠标10.jpg",type:"yes"}	
+            {title:"弹跳杯",url:"弹跳杯3.jpeg",type:"yes"},
+			{title:"小熊公仔",url:"小熊公仔10.jpeg",type:"yes"},
+			{title:"小熊钥匙扣",url:"小熊钥匙扣40.jpeg",type:"yes"},
+			{title:"指甲刀套转",url:"指甲刀 60.jpeg",type:"yes"},
+			{title:"泡沫洗手液",url:"泡沫洗手液 (2).jpg",type:"yes"},
+			{title:"墙上收纳袋",url:"墙上收纳袋 20.jpeg",type:"yes"},
+		    {title:"小熊书签",url:"熊头书签 12.jpeg",type:"yes"},
+            {title:"纸巾",url:"手帕纸 10.jpeg",type:"yes"}	
 		];
 $(function(){
 	//初始化样式 宽度
@@ -208,28 +208,28 @@ $.fn.extend({
                 //renewLI();
                 var stime = Math.floor(Math.random()*(1-100)+100);//为中奖的序号    1-8 
 				//中奖概率
-				if (stime>=1&&stime<=41){
+				if (stime>=1&&stime<=3){
 					var stime=1;
 				}
-				if (stime>=42&&stime<=45){
+				if (stime>=4&&stime<=5){
 					var stime=2;
 				}
-				if (stime>=46&&stime<=53){
+				if (stime>=6&&stime<=50){
 					var stime=3;
 				}
-				if (stime>=54&&stime<=57){
+				if (stime>=51&&stime<=54){
 					var stime=4;
 				}
-				if (stime>=58&&stime<=65){
+				if (stime>=55&&stime<=57){
 					var stime=5;
 				}
-				if (stime>=66&&stime<=73){
+				if (stime>=58&&stime<=59){
 					var stime=6;
 				}
-				if (stime>=74&&stime<=86){
+				if (stime>=60&&stime<=61){
 					var stime=7;
 				}
-				if (stime>=87&&stime<=100){
+				if (stime>=62&&stime<=100){
 					var stime=8;
 				}
 				//stime =getIndexs("谢谢参与")+parseInt(1);//
