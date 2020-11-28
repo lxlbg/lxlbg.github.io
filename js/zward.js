@@ -5,12 +5,12 @@
 //抽奖的数组   titile中文名称  url 图片路径  type 是否是奖
 var newArr=[
             {title:"弹跳杯",url:"弹跳杯3 .jpeg",type:"yes"},
-			{title:"小熊公仔",url:"小熊公仔10.jpeg",type:"yes"},
+			{title:"下次一定",url:"嘲笑状的小熊1.png",type:"no"},
 			{title:"小熊钥匙扣",url:"小熊钥匙扣40.jpeg",type:"yes"},
-			{title:"指甲刀套转",url:"指甲刀 60.jpeg",type:"yes"},
-			{title:"泡沫洗手液",url:"泡沫洗手液 (2).jpg",type:"yes"},
+			{title:"加油",url:"嘲笑状的小熊1.png",type:"yes"},
+			{title:"谢谢惠顾",url:"嘲笑状的小熊1.png",type:"no"},
 			{title:"墙上收纳袋",url:"墙上收纳袋 20.jpeg",type:"yes"},
-		    {title:"小熊书签",url:"熊头书签 12.jpeg",type:"yes"},
+		    {title:"再见",url:"嘲笑状的小熊1.png",type:"no"},
             {title:"纸巾",url:"手帕纸 10.jpeg",type:"yes"}	
 		];
 $(function(){
@@ -208,28 +208,28 @@ $.fn.extend({
                 //renewLI();
                 var stime = Math.floor(Math.random()*(1-100)+100);//为中奖的序号    1-8 
 				//中奖概率
-				if (stime>=1&&stime<=3){
+				if (stime>=1&&stime<=2){
 					var stime=1;
 				}
-				if (stime>=4&&stime<=5){
+				if (stime>=3&&stime<=25){
 					var stime=2;
 				}
-				if (stime>=6&&stime<=50){
+				if (stime>=26&&stime<=27){
 					var stime=3;
 				}
-				if (stime>=51&&stime<=54){
+				if (stime>=28&&stime<=50){
 					var stime=4;
 				}
-				if (stime>=55&&stime<=57){
+				if (stime>=51&&stime<=73){
 					var stime=5;
 				}
-				if (stime>=58&&stime<=59){
+				if (stime>=74&&stime<=75){
 					var stime=6;
 				}
-				if (stime>=60&&stime<=61){
+				if (stime>=76&&stime<=95){
 					var stime=7;
 				}
-				if (stime>=62&&stime<=100){
+				if (stime>=96&&stime<=100){
 					var stime=8;
 				}
 				//stime =getIndexs("谢谢参与")+parseInt(1);//
