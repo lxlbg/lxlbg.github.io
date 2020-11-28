@@ -5,12 +5,12 @@
 //抽奖的数组   titile中文名称  url 图片路径  type 是否是奖
 var newArr=[
             {title:"弹跳杯",url:"弹跳杯3 .jpeg",type:"yes"},
-			{title:"下次一定",url:"嘲笑状的小熊1.png",type:"no"},
+			{title:"下次一定",url:"嘲笑状的小熊.png",type:"no"},
 			{title:"小熊钥匙扣",url:"小熊钥匙扣40.jpeg",type:"yes"},
-			{title:"加油",url:"嘲笑状的小熊1.png",type:"yes"},
-			{title:"谢谢惠顾",url:"嘲笑状的小熊1.png",type:"no"},
+			{title:"加油",url:"对手指1.png",type:"yes"},
+			{title:"谢谢惠顾",url:"嘲笑状的小熊.png",type:"no"},
 			{title:"墙上收纳袋",url:"墙上收纳袋 20.jpeg",type:"yes"},
-		    {title:"再见",url:"嘲笑状的小熊1.png",type:"no"},
+		    {title:"再见",url:"对手指1.png",type:"no"},
             {title:"纸巾",url:"手帕纸 10.jpeg",type:"yes"}	
 		];
 $(function(){
